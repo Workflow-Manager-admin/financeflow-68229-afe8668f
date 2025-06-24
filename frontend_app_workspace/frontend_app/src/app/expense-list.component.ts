@@ -44,7 +44,8 @@ export class ExpenseListComponent {
     this.editExpense.emit(expense);
   }
   onDelete(expense: Expense) {
-    if (window.confirm('Are you sure you want to delete this expense?')) {
+    // eslint-disable-next-line no-undef
+    if (typeof window !== 'undefined' && window.confirm && window.confirm('Are you sure you want to delete this expense?')) {
       this.deleteExpense.emit(expense);
     }
   }

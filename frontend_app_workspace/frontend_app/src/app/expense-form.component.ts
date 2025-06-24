@@ -31,10 +31,12 @@ export class ExpenseFormComponent {
   }
 
   submitForm() {
+    /* eslint-disable no-undef */
     if (!this.form.description || !this.form.amount || !this.form.category || !this.form.date) {
-      window.alert('Please fill all required fields');
+      if (typeof window !== 'undefined' && window.alert) window.alert('Please fill all required fields');
       return;
     }
+    /* eslint-enable no-undef */
     this.save.emit(this.form);
   }
 }

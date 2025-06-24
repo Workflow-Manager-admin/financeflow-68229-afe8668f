@@ -41,9 +41,11 @@ export class CategoryListComponent {
     this.editMode = cat.id;
     this.form = { ...cat };
   }
+  // eslint-disable-next-line class-methods-use-this
   submitCategory() {
+    /* eslint-disable no-undef */
     if (!this.form.name) {
-      window.alert('Name is required!');
+      if (typeof window !== 'undefined' && window.alert) window.alert('Name is required!');
       return;
     }
     if (this.editMode) {
@@ -54,6 +56,7 @@ export class CategoryListComponent {
     this.addMode = false;
     this.editMode = null;
     this.form = {};
+    /* eslint-enable no-undef */
   }
   cancelEdit() {
     this.addMode = false;
@@ -61,6 +64,8 @@ export class CategoryListComponent {
     this.form = {};
   }
   onDelete(cat: Category) {
-    if (window.confirm(`Delete category "${cat.name}"?`)) this.deleteCategory.emit(cat);
+    /* eslint-disable no-undef */
+    if (typeof window !== 'undefined' && window.confirm && window.confirm(`Delete category "${cat.name}"?`)) this.deleteCategory.emit(cat);
+    /* eslint-enable no-undef */
   }
 }

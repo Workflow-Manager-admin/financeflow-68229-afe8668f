@@ -25,7 +25,7 @@ import { CommonModule } from '@angular/common';
 export class CategoriesComponent {
   categories: Category[] = [];
   loading = false;
-  constructor(private api: ApiService) {}
+  constructor(public api: ApiService) {}
 
   ngOnInit() {
     this.loadCategories();
@@ -33,7 +33,7 @@ export class CategoriesComponent {
 
   loadCategories() {
     this.loading = true;
-    this.api.getCategories().subscribe(cats => {
+    this.api.getCategories().subscribe((cats: Category[]) => {
       this.categories = cats;
       this.loading = false;
     }, () => this.loading = false);

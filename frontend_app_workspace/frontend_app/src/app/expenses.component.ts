@@ -37,8 +37,7 @@ export class ExpensesComponent {
   loading = false;
   formMode = false;
   editingExpense?: Expense | null = null;
-
-  constructor(private api: ApiService) {}
+  constructor(public api: ApiService) {}
 
   ngOnInit() {
     this.loadEverything();
@@ -46,8 +45,8 @@ export class ExpensesComponent {
 
   loadEverything() {
     this.loading = true;
-    this.api.getCategories().subscribe(cats => { this.categories = cats; });
-    this.api.getExpenses().subscribe(items => {
+    this.api.getCategories().subscribe((cats: Category[]) => { this.categories = cats; });
+    this.api.getExpenses().subscribe((items: Expense[]) => {
       this.expenses = items;
       this.loading = false;
     }, () => this.loading = false);
