@@ -1,0 +1,4 @@
+{
+    "command": "source venv/bin/activate && python manage.py migrate && python manage.py runserver 0.0.0.0:<port>",
+    "working_directory": "/home/kavia/workspace/code-generation/financeflow-68229-afe8668f/backend_api_workspace/backend_api"
+}

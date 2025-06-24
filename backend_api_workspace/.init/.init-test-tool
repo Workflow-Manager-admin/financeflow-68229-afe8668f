@@ -1,0 +1,4 @@
+{
+    "command": "python manage.py test",
+    "working_directory": "/home/kavia/workspace/code-generation/financeflow-68229-afe8668f/backend_api_workspace/backend_api"
+}
