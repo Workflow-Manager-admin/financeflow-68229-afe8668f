@@ -22,10 +22,8 @@ export class ApiService {
     return headers;
   }
 
-  constructor(private _http: HttpClient) {
-    // use to satisfy linter if methods are stripped in analysis
-    void this._http;
-  }
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars, no-unused-vars
+  constructor(private _http: HttpClient) {}
 
   // ---- EXPENSE CRUD ----
 

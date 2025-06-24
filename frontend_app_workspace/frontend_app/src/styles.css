@@ -1,1 +1,121 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global and App Shell Styles */
+:root {
+  --primary: #1976d2;
+  --secondary: #424242;
+  --accent: #ff9800;
+  --background: #f5f5f7;
+  --sidebar-width: 210px;
+  --navbar-height: 58px;
+  --text-main: #222;
+  --sidebar-bg: #fff;
+  --sidebar-border: #e0e0e0;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  color: var(--text-main);
+  min-height: 100vh;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top Navbar */
+.top-navbar {
+  height: var(--navbar-height);
+  background: var(--primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  box-shadow: 0 2px 8px 0 rgba(30,50,60,.06);
+  z-index: 10;
+  justify-content: space-between;
+}
+
+.app-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.main-menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.main-menu a.active-link, .main-menu a:hover {
+  color: var(--accent);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+.body-container {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.sidebar {
+  width: var(--sidebar-width);
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--sidebar-border);
+  padding-top: 1.5rem;
+  min-height: calc(100vh - var(--navbar-height));
+  box-shadow: 1px 0 6px 0 rgba(40,40,40,.06);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0 1rem;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 1rem;
+}
+
+.sidebar a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-size: 1.05rem;
+  display: block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  transition: background .18s;
+}
+
+.sidebar a.active-link,
+.sidebar a:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background: var(--background);
+  min-height: calc(100vh - var(--navbar-height));
+}
+
+@media (max-width: 800px) {
+  .sidebar {
+    display: none;
+  }
+  .main-content {
+    padding: 1rem;
+  }
+}

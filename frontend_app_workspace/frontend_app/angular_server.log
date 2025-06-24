@@ -28,3 +28,216 @@ Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.318 seconds]
+
+✘ [ERROR] Could not resolve "./dashboard.component"
+
+    src/app/app.routes.ts:1:35:
+      1 │ import { DashboardComponent } from './dashboard.component';
+        ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./expenses.component"
+
+    src/app/app.routes.ts:2:34:
+      2 │ import { ExpensesComponent } from './expenses.component';
+        ╵                                   ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './dashboard.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:2:35:
+      2 │ import { DashboardComponent } from './dashboard.component';
+        ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './expenses.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:3:34:
+      3 │ import { ExpensesComponent } from './expenses.component';
+        ╵                                   ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./categories.component"
+
+    src/app/app.routes.ts:3:36:
+      3 │ import { CategoriesComponent } from './categories.component';
+        ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './categories.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:4:36:
+      4 │ import { CategoriesComponent } from './categories.component';
+        ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./dashboard.component"
+
+    src/app/app.routes.ts:1:35:
+      1 │ import { DashboardComponent } from './dashboard.component';
+        ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./expenses.component"
+
+    src/app/app.routes.ts:2:34:
+      2 │ import { ExpensesComponent } from './expenses.component';
+        ╵                                   ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./categories.component"
+
+    src/app/app.routes.ts:3:36:
+      3 │ import { CategoriesComponent } from './categories.component';
+        ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.006 seconds]
+
+✘ [ERROR] Could not resolve "./dashboard.component"
+
+    src/app/app.routes.ts:1:35:
+      1 │ import { DashboardComponent } from './dashboard.component';
+        ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./expenses.component"
+
+    src/app/app.routes.ts:2:34:
+      2 │ import { ExpensesComponent } from './expenses.component';
+        ╵                                   ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './dashboard.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:2:35:
+      2 │ import { DashboardComponent } from './dashboard.component';
+        ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './expenses.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:3:34:
+      3 │ import { ExpensesComponent } from './expenses.component';
+        ╵                                   ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./categories.component"
+
+    src/app/app.routes.ts:3:36:
+      3 │ import { CategoriesComponent } from './categories.component';
+        ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './categories.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:4:36:
+      4 │ import { CategoriesComponent } from './categories.component';
+        ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./dashboard.component"
+
+    src/app/app.routes.ts:1:35:
+      1 │ import { DashboardComponent } from './dashboard.component';
+        ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./expenses.component"
+
+    src/app/app.routes.ts:2:34:
+      2 │ import { ExpensesComponent } from './expenses.component';
+        ╵                                   ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./categories.component"
+
+    src/app/app.routes.ts:3:36:
+      3 │ import { CategoriesComponent } from './categories.component';
+        ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles     
+Initial chunk files  | Names            |  Raw size
+polyfills.js         | polyfills        |  90.20 kB | 
+main.js              | main             |  26.48 kB | 
+styles.css           | styles           |   2.12 kB | 
+
+                     | Initial total    | 118.80 kB
+
+
+Server bundles      
+Initial chunk files  | Names            |  Raw size
+polyfills.server.mjs | polyfills.server | 572.91 kB | 
+chunk-TCQKTFQ4.mjs   | -                |  26.95 kB | 
+server.mjs           | server           |   1.39 kB | 
+main.server.mjs      | main.server      | 800 bytes | 
+
+Application bundle generation complete. [0.447 seconds]
+
+▲ [WARNING] TS-998113: DashboardComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:12:4:
+      12 │     DashboardComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: ExpensesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:13:4:
+      13 │     ExpensesComponent,
+         ╵     ~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: CategoriesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:14:4:
+      14 │     CategoriesComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |   7.03 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-AKSPQ5PU.mjs  | -           |   7.49 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.272 seconds]
+
+▲ [WARNING] TS-998113: DashboardComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:12:4:
+      12 │     DashboardComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: ExpensesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:13:4:
+      13 │     ExpensesComponent,
+         ╵     ~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: CategoriesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:14:4:
+      14 │     CategoriesComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
