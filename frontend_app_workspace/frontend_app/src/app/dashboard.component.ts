@@ -21,11 +21,21 @@ export class DashboardComponent {
   summary?: DashboardSummary;
   loading = false;
   error = false;
-  // No need for ApiService property since not actually referenced, all service logic now is delegated.
+
+  constructor(private api: ApiService) {}
 
   ngOnInit() {
     this.loading = true;
     this.error = false;
-    // (Assume ApiService logic injection was unnecessary)
+    this.api.getDashboardSummary().subscribe({
+      next: (data) => {
+        this.summary = data;
+        this.loading = false;
+      },
+      error: () => {
+        this.loading = false;
+        this.error = true;
+      }
+    });
   }
 }
