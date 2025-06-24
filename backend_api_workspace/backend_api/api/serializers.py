@@ -1,5 +1,54 @@
 from rest_framework import serializers
+from django.contrib.auth.models import User
 from .models import Expense, Category
+from django.contrib.auth import authenticate
+
+
+# PUBLIC_INTERFACE
+class UserSerializer(serializers.ModelSerializer):
+    """
+    Serializer for User model (for registration and user info).
+    """
+
+    class Meta:
+        model = User
+        fields = ['id', 'username']
+
+
+# PUBLIC_INTERFACE
+class RegisterSerializer(serializers.ModelSerializer):
+    """
+    Serializer for user registration endpoint.
+    """
+    password = serializers.CharField(write_only=True, min_length=8)
+
+    class Meta:
+        model = User
+        fields = ['id', 'username', 'password']
+
+    # PUBLIC_INTERFACE
+    def create(self, validated_data):
+        user = User.objects.create_user(
+            username=validated_data['username'],
+            password=validated_data['password']
+        )
+        return user
+
+
+# PUBLIC_INTERFACE
+class LoginSerializer(serializers.Serializer):
+    """
+    Serializer for user login endpoint.
+    """
+    username = serializers.CharField()
+    password = serializers.CharField(write_only=True)
+
+    # PUBLIC_INTERFACE
+    def validate(self, data):
+        user = authenticate(**data)
+        if user and user.is_active:
+            return user
+        raise serializers.ValidationError("Invalid credentials")
 
 
 # PUBLIC_INTERFACE
@@ -16,9 +65,8 @@ class CategorySerializer(serializers.ModelSerializer):
         fields = ['id', 'name', 'user']
         read_only_fields = ['id', 'user']
 
+
 # PUBLIC_INTERFACE
-
-
 class ExpenseSerializer(serializers.ModelSerializer):
     """
     Serializer for Expense model.
@@ -39,7 +87,9 @@ class ExpenseSerializer(serializers.ModelSerializer):
             'id', 'user', 'category', 'category_id',
             'amount', 'description', 'date', 'created_at', 'updated_at'
         ]
-        read_only_fields = ('id', 'user', 'created_at', 'updated_at', 'category')
+        read_only_fields = (
+            'id', 'user', 'created_at', 'updated_at', 'category'
+        )
 
     # PUBLIC_INTERFACE
     def create(self, validated_data):
@@ -57,3 +107,17 @@ class ExpenseSerializer(serializers.ModelSerializer):
             setattr(instance, attr, value)
         instance.save()
         return instance
+
+
+# PUBLIC_INTERFACE
+class ExpenseSummarySerializer(serializers.Serializer):
+    """
+    Serializer for dashboard/summary information.
+    """
+    total_expenses = serializers.DecimalField(
+        max_digits=12, decimal_places=2
+    )
+    by_category = serializers.DictField(
+        child=serializers.DecimalField(max_digits=12, decimal_places=2)
+    )
+    count = serializers.IntegerField()
