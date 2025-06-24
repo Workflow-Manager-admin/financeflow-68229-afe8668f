@@ -1,0 +1,47 @@
+<div class="category-list-controls" style="margin-bottom:1rem;">
+  <input
+    type="text"
+    placeholder="Search categories..."
+    [(ngModel)]="filterSearch"
+    style="width: 220px; margin-right:1rem;"
+  />
+  <button (click)="startAdd()" [disabled]="addMode || editMode">Add Category</button>
+</div>
+<div *ngIf="addMode" style="margin-bottom:1rem;">
+  <form (ngSubmit)="submitCategory()" style="display:inline-block;">
+    <input type="text" placeholder="New category name" [(ngModel)]="form.name" name="name" required>
+    <input type="text" placeholder="Description (optional)" [(ngModel)]="form.description" name="desc">
+    <button type="submit">Save</button>
+    <button type="button" (click)="cancelEdit()">Cancel</button>
+  </form>
+</div>
+<table *ngIf="filteredCategories.length>0; else emptyList" class="category-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th style="width:5rem"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cat of filteredCategories">
+      <td *ngIf="editMode!==cat.id">{{ cat.name }}</td>
+      <td *ngIf="editMode===cat.id" colspan="2">
+        <form (ngSubmit)="submitCategory()" style="display:inline-flex; gap:.4em;">
+          <input type="text" [(ngModel)]="form.name" name="ename" required>
+          <input type="text" [(ngModel)]="form.description" name="edesc">
+          <button type="submit">Save</button>
+          <button type="button" (click)="cancelEdit()">Cancel</button>
+        </form>
+      </td>
+      <td *ngIf="editMode!==cat.id">{{ cat.description }}</td>
+      <td *ngIf="editMode!==cat.id">
+        <button (click)="startEdit(cat)">Edit</button>
+        <button (click)="onDelete(cat)" style="color:red;">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<ng-template #emptyList>
+  <div style="padding:1rem; color:#aaa; text-align: center;">No categories found.</div>
+</ng-template>

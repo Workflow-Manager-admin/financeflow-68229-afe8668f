@@ -1,0 +1,40 @@
+<div class="expense-list-controls">
+  <input
+    type="text"
+    placeholder="Search expenses..."
+    [(ngModel)]="filterSearch"
+    style="margin-right: 1rem; width: 200px;"
+  />
+  <ng-container *ngIf="showCategoryFilter">
+    <select [(ngModel)]="filterCategory" style="margin-right:1rem;">
+      <option [ngValue]="''">All Categories</option>
+      <option *ngFor="let c of categories" [ngValue]="c.id">{{ c.name }}</option>
+    </select>
+  </ng-container>
+</div>
+<table *ngIf="filteredExpenses.length > 0;else emptyList" class="expense-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Category</th>
+      <th>Description</th>
+      <th>Amount</th>
+      <th style="width:5rem"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let expense of filteredExpenses">
+      <td>{{ expense.date | date: 'yyyy-MM-dd' }}</td>
+      <td>{{ categoryName(expense.category) }}</td>
+      <td>{{ expense.description }}</td>
+      <td>${{ expense.amount | number:'1.2-2' }}</td>
+      <td>
+        <button (click)="onEdit(expense)">Edit</button>
+        <button (click)="onDelete(expense)" style="color:red">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<ng-template #emptyList>
+  <div style="padding:1rem; color: #aaa; text-align: center">No expenses found.</div>
+</ng-template>

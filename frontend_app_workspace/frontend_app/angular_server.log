@@ -241,3 +241,796 @@ Application bundle generation complete. [0.272 seconds]
 
 
 Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  31.31 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-UILV2XNB.mjs  | -           |  31.78 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.815 seconds]
+
+▲ [WARNING] TS-998113: DashboardComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:12:4:
+      12 │     DashboardComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: ExpensesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:13:4:
+      13 │     ExpensesComponent,
+         ╵     ~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: CategoriesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:14:4:
+      14 │     CategoriesComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+9:58:03 AM [vite] (ssr) ✨ new dependencies optimized: @angular/forms, @angular/common/http
+9:58:03 AM [vite] (ssr) ✨ optimized dependencies changed. reloading
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.06 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-RMPQNKVF.mjs  | -           |  47.52 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.634 seconds]
+
+▲ [WARNING] TS-998113: DashboardComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:12:4:
+      12 │     DashboardComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: ExpensesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:13:4:
+      13 │     ExpensesComponent,
+         ╵     ~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: CategoriesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:14:4:
+      14 │     CategoriesComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.06 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-C23KPZI5.mjs  | -           |  47.52 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.533 seconds]
+
+▲ [WARNING] TS-998113: DashboardComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:12:4:
+      12 │     DashboardComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: ExpensesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:13:4:
+      13 │     ExpensesComponent,
+         ╵     ~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: CategoriesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:14:4:
+      14 │     CategoriesComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.06 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-RDXYIHKL.mjs  | -           |  47.53 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.238 seconds]
+
+▲ [WARNING] TS-998113: DashboardComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:12:4:
+      12 │     DashboardComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: ExpensesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:13:4:
+      13 │     ExpensesComponent,
+         ╵     ~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: CategoriesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:14:4:
+      14 │     CategoriesComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.07 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-DEU54PNQ.mjs  | -           |  47.54 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.255 seconds]
+
+▲ [WARNING] TS-998113: DashboardComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:12:4:
+      12 │     DashboardComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: ExpensesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:13:4:
+      13 │     ExpensesComponent,
+         ╵     ~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: CategoriesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:14:4:
+      14 │     CategoriesComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.08 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-VJNFEKFC.mjs  | -           |  47.54 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.304 seconds]
+
+▲ [WARNING] TS-998113: DashboardComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:12:4:
+      12 │     DashboardComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: ExpensesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:13:4:
+      13 │     ExpensesComponent,
+         ╵     ~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: CategoriesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:14:4:
+      14 │     CategoriesComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.09 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-DPSRWOPT.mjs  | -           |  47.55 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.251 seconds]
+
+▲ [WARNING] TS-998113: DashboardComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:12:4:
+      12 │     DashboardComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: ExpensesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:13:4:
+      13 │     ExpensesComponent,
+         ╵     ~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: CategoriesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:14:4:
+      14 │     CategoriesComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.10 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-HCTSBSKD.mjs  | -           |  47.56 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.174 seconds]
+
+▲ [WARNING] TS-998113: DashboardComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:12:4:
+      12 │     DashboardComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: ExpensesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:13:4:
+      13 │     ExpensesComponent,
+         ╵     ~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: CategoriesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:14:4:
+      14 │     CategoriesComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.10 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-4T3C5765.mjs  | -           |  47.56 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.178 seconds]
+
+▲ [WARNING] TS-998113: DashboardComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:12:4:
+      12 │     DashboardComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: ExpensesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:13:4:
+      13 │     ExpensesComponent,
+         ╵     ~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] TS-998113: CategoriesComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:14:4:
+      14 │     CategoriesComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.10 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-BUUQB6MN.mjs  | -           |  47.51 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.249 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles     
+Initial chunk files  | Names            |  Raw size
+polyfills.js         | polyfills        |  90.20 kB | 
+main.js              | main             |  47.10 kB | 
+styles.css           | styles           |   2.12 kB | 
+
+                     | Initial total    | 139.42 kB
+
+
+Server bundles      
+Initial chunk files  | Names            |  Raw size
+polyfills.server.mjs | polyfills.server | 572.91 kB | 
+chunk-BUUQB6MN.mjs   | -                |  47.51 kB | 
+server.mjs           | server           |   1.39 kB | 
+main.server.mjs      | main.server      | 800 bytes | 
+
+Application bundle generation complete. [0.079 seconds]
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles     
+Initial chunk files  | Names            |  Raw size
+polyfills.js         | polyfills        |  90.20 kB | 
+main.js              | main             |  47.10 kB | 
+styles.css           | styles           |   2.12 kB | 
+
+                     | Initial total    | 139.42 kB
+
+
+Server bundles      
+Initial chunk files  | Names            |  Raw size
+polyfills.server.mjs | polyfills.server | 572.91 kB | 
+chunk-BUUQB6MN.mjs   | -                |  47.51 kB | 
+server.mjs           | server           |   1.39 kB | 
+main.server.mjs      | main.server      | 800 bytes | 
+
+Application bundle generation complete. [0.122 seconds]
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles     
+Initial chunk files  | Names            |  Raw size
+polyfills.js         | polyfills        |  90.20 kB | 
+main.js              | main             |  47.10 kB | 
+styles.css           | styles           |   2.12 kB | 
+
+                     | Initial total    | 139.42 kB
+
+
+Server bundles      
+Initial chunk files  | Names            |  Raw size
+polyfills.server.mjs | polyfills.server | 572.91 kB | 
+chunk-BUUQB6MN.mjs   | -                |  47.51 kB | 
+server.mjs           | server           |   1.39 kB | 
+main.server.mjs      | main.server      | 800 bytes | 
+
+Application bundle generation complete. [0.082 seconds]
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.09 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-E3HGE6NJ.mjs  | -           |  47.51 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.337 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.08 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-4O4HKR4D.mjs  | -           |  47.50 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.246 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles     
+Initial chunk files  | Names            |  Raw size
+polyfills.js         | polyfills        |  90.20 kB | 
+main.js              | main             |  47.08 kB | 
+styles.css           | styles           |   2.12 kB | 
+
+                     | Initial total    | 139.41 kB
+
+
+Server bundles      
+Initial chunk files  | Names            |  Raw size
+polyfills.server.mjs | polyfills.server | 572.91 kB | 
+chunk-4O4HKR4D.mjs   | -                |  47.50 kB | 
+server.mjs           | server           |   1.39 kB | 
+main.server.mjs      | main.server      | 800 bytes | 
+
+Application bundle generation complete. [0.084 seconds]
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.08 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-JA4E4RSO.mjs  | -           |  47.49 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.230 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.07 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-NLTNPL7Y.mjs  | -           |  47.49 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.296 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.12 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-BRGQA7EA.mjs  | -           |  47.54 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.113 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.18 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-QTQOOA7J.mjs  | -           |  47.59 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.140 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-GAGCGQXQ.mjs  | -           |  47.59 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.222 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-G7VJESG2.mjs  | -           |  47.59 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.220 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-PWWD43IM.mjs  | -           |  47.59 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.226 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-6YVEI2LH.mjs  | -           |  47.59 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.161 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.12 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-2JS237T7.mjs  | -           |  47.54 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.115 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.157 seconds]
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'CategoriesComponent'. [plugin angular-compiler]
+
+    src/app/categories.component.ts:43:9:
+      43 │     this.api.createCategory(data).subscribe(() => this.loadCategor...
+         ╵          ~~~
+
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'CategoriesComponent'. [plugin angular-compiler]
+
+    src/app/categories.component.ts:47:9:
+      47 │     this.api.updateCategory(id, data).subscribe(() => this.loadCat...
+         ╵          ~~~
+
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'CategoriesComponent'. [plugin angular-compiler]
+
+    src/app/categories.component.ts:50:9:
+      50 │     this.api.deleteCategory(cat.id).subscribe(() => this.loadCateg...
+         ╵          ~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.117 seconds]
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'CategoriesComponent'. [plugin angular-compiler]
+
+    src/app/categories.component.ts:43:9:
+      43 │     this.api.createCategory(data).subscribe(() => this.loadCategor...
+         ╵          ~~~
+
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'CategoriesComponent'. [plugin angular-compiler]
+
+    src/app/categories.component.ts:47:9:
+      47 │     this.api.updateCategory(id, data).subscribe(() => this.loadCat...
+         ╵          ~~~
+
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'CategoriesComponent'. [plugin angular-compiler]
+
+    src/app/categories.component.ts:50:9:
+      50 │     this.api.deleteCategory(cat.id).subscribe(() => this.loadCateg...
+         ╵          ~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.157 seconds]
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'CategoriesComponent'. [plugin angular-compiler]
+
+    src/app/categories.component.ts:43:9:
+      43 │     this.api.createCategory(data).subscribe(() => this.loadCategor...
+         ╵          ~~~
+
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'CategoriesComponent'. [plugin angular-compiler]
+
+    src/app/categories.component.ts:47:9:
+      47 │     this.api.updateCategory(id, data).subscribe(() => this.loadCat...
+         ╵          ~~~
+
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'CategoriesComponent'. [plugin angular-compiler]
+
+    src/app/categories.component.ts:50:9:
+      50 │     this.api.deleteCategory(cat.id).subscribe(() => this.loadCateg...
+         ╵          ~~~
+
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'ExpensesComponent'. [plugin angular-compiler]
+
+    src/app/expenses.component.ts:70:11:
+      70 │       this.api.updateExpense(this.editingExpense.id, data).subscri...
+         ╵            ~~~
+
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'ExpensesComponent'. [plugin angular-compiler]
+
+    src/app/expenses.component.ts:75:11:
+      75 │       this.api.createExpense(data).subscribe(() => {
+         ╵            ~~~
+
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'ExpensesComponent'. [plugin angular-compiler]
+
+    src/app/expenses.component.ts:82:9:
+      82 │     this.api.deleteExpense(exp.id).subscribe(() => this.loadEveryt...
+         ╵          ~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.174 seconds]
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'ExpensesComponent'. [plugin angular-compiler]
+
+    src/app/expenses.component.ts:70:11:
+      70 │       this.api.updateExpense(this.editingExpense.id, data).subscri...
+         ╵            ~~~
+
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'ExpensesComponent'. [plugin angular-compiler]
+
+    src/app/expenses.component.ts:75:11:
+      75 │       this.api.createExpense(data).subscribe(() => {
+         ╵            ~~~
+
+
+✘ [ERROR] TS2339: Property 'api' does not exist on type 'ExpensesComponent'. [plugin angular-compiler]
+
+    src/app/expenses.component.ts:82:9:
+      82 │     this.api.deleteExpense(exp.id).subscribe(() => this.loadEveryt...
+         ╵          ~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles     
+Initial chunk files  | Names            |  Raw size
+polyfills.js         | polyfills        |  90.20 kB | 
+main.js              | main             |  47.07 kB | 
+styles.css           | styles           |   2.12 kB | 
+
+                     | Initial total    | 139.39 kB
+
+
+Server bundles      
+Initial chunk files  | Names            |  Raw size
+polyfills.server.mjs | polyfills.server | 572.91 kB | 
+chunk-YIV5P5AL.mjs   | -                |  47.49 kB | 
+server.mjs           | server           |   1.39 kB | 
+main.server.mjs      | main.server      | 800 bytes | 
+
+Application bundle generation complete. [0.189 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.08 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-7NGP5PNS.mjs  | -           |  47.49 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.207 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.08 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-5H7OW3IA.mjs  | -           |  47.50 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.264 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.09 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-NA5Y22JH.mjs  | -           |  47.51 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.264 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  47.10 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-BUUQB6MN.mjs  | -           |  47.51 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.227 seconds]
+
+Page reload sent to client(s).

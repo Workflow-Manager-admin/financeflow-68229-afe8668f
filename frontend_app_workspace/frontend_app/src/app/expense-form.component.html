@@ -1,0 +1,29 @@
+<form (ngSubmit)="submitForm()" style="min-width:250px;">
+  <label>
+    Date:
+    <input type="date" [(ngModel)]="form.date" name="date" required />
+  </label>
+  <br>
+  <label>
+    Category:
+    <select [(ngModel)]="form.category" name="category" required>
+      <option [ngValue]="null" disabled selected>Select Category</option>
+      <option *ngFor="let cat of categories" [ngValue]="cat.id">{{ cat.name }}</option>
+    </select>
+  </label>
+  <br>
+  <label>
+    Description:
+    <input type="text" [(ngModel)]="form.description" name="description" required />
+  </label>
+  <br>
+  <label>
+    Amount:
+    <input type="number" [(ngModel)]="form.amount" name="amount" step="0.01" required />
+  </label>
+  <br>
+  <div style="margin-top:1rem;">
+    <button type="submit">{{ expense ? 'Update' : 'Add' }} Expense</button>
+    <button type="button" (click)="cancel.emit()" style="margin-left: 1em;">Cancel</button>
+  </div>
+</form>
